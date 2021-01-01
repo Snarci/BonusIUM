@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bonus</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="password">password</string>
+    <string name="password2">Password</string>
+    <string name="accedi">Accedi</string>
+    <string name="i_tuoi_dati">I tuoi dati:</string>
+</resources>

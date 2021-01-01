@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrazione">
+
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+    <TextView
+        android:id="@+id/registrazioneText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrazione"
+        android:textSize="45sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:paddingLeft="40sp"
+        android:textSize="35sp"
+        android:layout_below="@+id/registrazioneText"
+        />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameText"
+        />
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:paddingLeft="40sp"
+        android:textSize="35sp"
+        android:layout_below="@+id/usernameEditText"
+        />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordText"
+        />
+    <TextView
+        android:id="@+id/passwordConfirmText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conferma password"
+        android:paddingLeft="40sp"
+        android:textSize="35sp"
+        android:layout_below="@+id/passwordEditText"
+        />
+
+    <EditText
+        android:id="@+id/passwordConfirmEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordConfirmText"
+        />
+    <TextView
+        android:id="@+id/cittaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Città di provenienza"
+        android:paddingLeft="40sp"
+        android:textSize="35sp"
+        android:layout_below="@+id/passwordConfirmEditText"
+        />
+
+    <EditText
+        android:id="@+id/cittaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cittaText"
+        />
+    <TextView
+        android:id="@+id/dataNascitaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data di nascita"
+        android:paddingLeft="40sp"
+        android:textSize="35sp"
+        android:layout_below="@+id/cittaEditText"
+        />
+    <EditText
+        android:inputType="datetime"
+        android:id="@+id/dataNascita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dataNascitaText"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="320sp"
+        android:layout_height="60sp"
+        android:layout_centerHorizontal="true"
+        android:text="Registrati"
+        android:textAllCaps="false"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+
+        android:layout_below="@+id/dataNascita"/>
+    <Button
+        android:id="@+id/backRegister"
+        android:layout_width="320sp"
+        android:layout_height="60sp"
+        android:layout_centerHorizontal="true"
+        android:text="Indietro"
+        android:textAllCaps="false"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+
+        android:layout_below="@+id/register"/>
+
+    </RelativeLayout>
+    </ScrollView>
+

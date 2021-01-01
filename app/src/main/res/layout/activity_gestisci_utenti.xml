@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GestisciUtenti"
+    android:id="@+id/layoutGestisciUtenti">
+
+    <TextView
+        android:id="@+id/nameFind"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:text="Ricerca utenti"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="40sp"
+        />
+    <SearchView
+        android:id="@+id/filter"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_toRightOf="@id/nameFind"
+
+        />
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="130dp"
+
+        android:layout_below="@+id/filter"
+        >
+    </ListView>
+
+    <Button
+
+        android:id="@+id/backGestisciUtenti"
+        android:layout_width="320sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="20sp"
+        android:text="Indietro"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40sp"
+
+        />
+</RelativeLayout>
