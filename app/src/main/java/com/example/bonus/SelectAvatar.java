@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
+import android.widget.Toast;
 
 public class SelectAvatar extends   AppCompatActivity{
 
@@ -38,6 +39,7 @@ public class SelectAvatar extends   AppCompatActivity{
                     if(persona.getUsername().equals(MainActivity.subjectUsername) && persona.getPassword().equals(MainActivity.subjectPassword)){
                         persona.imageId=mThumbIds[position];
                         Log.d("debuggo", "Cambio avatr");
+
                         Intent intenzione = new Intent(SelectAvatar.this, GestisciUtenti.class);
                         startActivity(intenzione);
                         finish();

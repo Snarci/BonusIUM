@@ -33,21 +33,8 @@ public class MainActivity extends AppCompatActivity {
         //Creazione persone testing + admin
         if(Persona.dbPersone.size()==0){
             new Persona("admin","admin","","",true,false);
-            new Persona("mario","rossi","Pompu","",false,false);
-            new Persona("manu","massi","Pirri","",false,false);
-            new Persona("mario1","rossi","Pompu","",false,false);
-            new Persona("manu1","massi","Pirri","",false,false);
-            new Persona("mario2","rossi","Pompu","",false,false);
-            new Persona("manu2","massi","Pirri","",false,false);
-            /*
-            new Persona("mario3","rossi","Pompu","",false,false);
-            new Persona("manu3","massi","Pirri","",false,false);
-            new Persona("mario4","rossi","Pompu","",false,false);
-            new Persona("manu4","massi","Pirri","",false,false);
-            new Persona("mario5","rossi","Pompu","",false,false);
-            new Persona("manu5","massi","Pirri","",false,false);
 
-             */
+
 
         }
 

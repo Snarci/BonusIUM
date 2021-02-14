@@ -41,7 +41,7 @@ public class ListAdapter extends ArrayAdapter<String>  implements AdapterView.On
 
     public View getView(int position,View view,ViewGroup parent) {
 
-            Log.d("debuggo","Qualcosaasso: "+ position);
+
             LayoutInflater inflater = context.getLayoutInflater();
             View rowView = inflater.inflate(R.layout.container_samples, null, true);
 
